@@ -12,6 +12,7 @@
 - (void) browseWorkspace;
 - (void)dealloc;
 - (FSObjectBrowser *)initWithRootObject:(id)object interpreter:(FSInterpreter *)interpreter;
+-(void)makeKeyAndOrderFront:(id)sender;
 
 @property (strong,nonatomic) IBOutlet id rootObject;
 @property (strong,nonatomic) IBOutlet FSInterpreter* interpreter;
