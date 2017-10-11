@@ -194,13 +194,8 @@
       [toolbarItem setLabel: buttonTitle];
       [toolbarItem setPaletteLabel: buttonTitle];
       [toolbarItem setTarget:self];
-
+      [toolbarItem setMinSize:NSMakeSize(85, 32)];
       [toolbarItem setView:button];
-
-      [toolbarItem setMinSize:[[button cell] cellSize].width < 85 ? NSMakeSize(85, 32) : NSMakeSize([button frame].size.width, 32)];
-
-      //[toolbarItem setMinSize:[[button cell] cellSize].width < 93 ? NSMakeSize(93, [button frame].size.height) : [[button cell] cellSize]];
-      //[toolbarItem setMaxSize:([button frame].size.width < 93 ? NSMakeSize(93, [button frame].size.height) : [[button cell] cellSize])];
       [toolbarItem setToolTip:toolTip];
 
       menuFormRep = [[[NSMenuItem alloc] init] autorelease];
