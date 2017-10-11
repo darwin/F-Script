@@ -5,7 +5,7 @@
 #import "FSPointer.h"
 #import "FSPointerPrivate.h"
 #import "FScriptFunctions.h"
-#import "Numberprivate.h" 
+#import "NumberPrivate.h"
 #import "FSNumber.h"
 #import <objc/runtime.h>
 #import "FSArray.h"

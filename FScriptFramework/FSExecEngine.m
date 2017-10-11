@@ -1,6 +1,9 @@
 /*   FSExecEngine.m Copyright (c) 1998-2009 Philippe Mougin.  */
 /*   This software is open source. See the license.  */  
 
+#undef OBJC_OLD_DISPATCH_PROTOTYPES
+#define OBJC_OLD_DISPATCH_PROTOTYPES 1
+
 #import "build_config.h"
 #import "FSExecEngine.h"
 #import "FScriptFunctions.h"

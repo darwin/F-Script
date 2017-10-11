@@ -53,22 +53,22 @@ static NSArray *sBOOLEnum = nil;
                 self.maxValue = NSIntegerMax;
                 [self addObserver:self
                        forKeyPath:@"float1"
-                          options:nil
+                          options:0
                           context:&FLOAT_CHANGED_CTX
                  ];
                 [self addObserver:self
                        forKeyPath:@"float2"
-                          options:nil
+                          options:0
                           context:&FLOAT_CHANGED_CTX
                  ];
                 [self addObserver:self
                        forKeyPath:@"float3"
-                          options:nil
+                          options:0
                           context:&FLOAT_CHANGED_CTX
                  ];
                 [self addObserver:self
                        forKeyPath:@"float4"
-                          options:nil
+                          options:0
                           context:&FLOAT_CHANGED_CTX
                  ];
         }
